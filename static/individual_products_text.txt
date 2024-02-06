@@ -1,0 +1,6 @@
+image10:"An aesthetic QR code of a spaceship flying over a city on fire"
+image22:"An aesthetic QR code of a red dragon spewing fire over an old village"
+image38:"An aesthetic QR code of an art showcasing a japanese style house during winter"
+image40:"An aesthetic QR code of a gigantic deadly robot at the north pole looking away"
+image41:"An aesthetic QR code of a handsome greek god with his weapon looking almighty"
+image6:"An aesthetic QR code of a painting trending on artstation"

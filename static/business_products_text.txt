@@ -1,0 +1,6 @@
+bedroom_qr4:"Showcase your new bedroom catalogue with a fresh looking QR Code, Give your business a unique identity by generating aesthetic and relevant QR codes"
+cleaning_qr4:"Showcase your new cleaning equipments catalogue with a fresh looking QR Code, Give your business a unique identity by generating aesthetic and relevant QR codes"
+food_qr2:"Showcase your mexican food catalogue with a fresh looking QR Code, Give your business a unique identity by generating aesthetic and relevant QR codes"
+furniture_qr4:"Showcase your new dining table and furniture catalogue with a fresh looking QR Code, Give your business a unique identity by generating aesthetic and relevant QR codes"
+gym_qr2:"Showcase your new gym catalogue with a fresh looking QR Code, Give your business a unique identity by generating aesthetic and relevant QR codes"
+market_shop_qr4:"Showcase your new bakery shop catalogue with a fresh looking QR Code, Give your business a unique identity by generating aesthetic and relevant QR codes"

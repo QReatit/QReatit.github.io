@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QReatit - AI QR Code generator</title>
+
+    <!-- Add your SEO-related meta tags here -->
+    <meta name="description"
+        content="Easily generate premium AI QR Codes. Simply enter a prompt to describe the QR code, then let us generate one for you.">
+
+    <!-- Add your social media meta tags here -->
+    <meta name="og:title" content="Qreatit - AI QR Code Generator">
+    <meta name="og:site_name" content="Qreatit">
+    <meta name="og:type" content="website">
+    <meta name="og:description" content="Easily generate premium AI QR Codes. Simply enter a prompt to describe the QR code, then let us generate one for you.">
+    <meta name="og:image" content="static/gallery/food_qr2.png">
+    <meta name="og:image_url" content="static/gallery/food_qr2.png">
+    <meta name="og:image_secure_url" content="static/gallery/food_qr2.png">
+
+
+    <!-- Add your CSS and other dependencies here -->
+    <link href="static/css/styles.css" rel="stylesheet">
+
+
+    <link rel="shortcut icon" href="static/qreatit_ico.png">
+</head>
+
+<body class="bg-primary font-sans">
+    <header class="fixed top-0 left-0 w-full z-[11] p-4 md:py-8 md:px-6 navbar-bg">
+        <nav class="flex items-center mx-auto justify-between max-w-7xl container">
+            <div>
+                <a href="" class="text-secondary text-2xl md:text-3xl font-bold">QReatit</a>
+                <p class="text-xs text-secondary inline">Beta</p>
+            </div>
+            <div class="md:hidden">
+                <button id="navbar-button" class="inline-flex items-center p-2 rounded-lg" aria-controls="navbar-hamburger" aria-expanded="false" onclick="toggle_navbar()"><svg class="w-6 h-6 bg-transparent text-secondary2" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg></button>
+            </div>
+            <div class="hidden md:block">
+                <a href="gallery"  class="px-4 py-2 mr-4 cta-button-bg">Gallery</a>
+                <a href="testimonials" class="px-4 py-2 mr-4 regular-button-bg">Testimonials</a>
+            </div>
+        </nav>
+        <div id="navbar-dropdown" class="hidden mx-auto max-w-7xl text-center mt-8 mb-2 pb-3 z-10 h-screen bg-primary">
+            <a href="gallery" class="py-2 my-2 w-full h-fit regular-button-bg block">Gallery</a>
+            <a href="testimonials" class="py-2 my-2 w-full h-fit regular-button-bg block">Testimonials</a>
+        </div>
+    </header>
+
+    <main>
+        <div id="slideshow" class="overflow-hidden">
+            <div class="flex flex-row flex-nowrap" style="transition: transform 1.5s ease-in-out;">
+
+                <div class="min-w-[calc(100%)] md:min-w-[calc(100%/3)] relative banner-slide -z-4">
+                    <img src=" static/images/1.png" alt="1.png" class="w-full h-auto -z-3">
+                    <div
+                        class="absolute w-full h-[100%] bottom-0 bg-primary/80 -z-2">
+                    </div>
+                    <div
+                        class="absolute w-full h-[30%] bottom-0 bg-gradient-to-b from-transparent via-transparent to-primary -z-1">
+                    </div>
+                </div>
+
+                <div class="min-w-[calc(100%)] md:min-w-[calc(100%/3)] relative banner-slide -z-4">
+                    <img src=" static/images/2.png" alt="2.png" class="w-full h-auto -z-3">
+                    <div
+                        class="absolute w-full h-[100%] bottom-0 bg-primary/80 -z-2">
+                    </div>
+                    <div
+                        class="absolute w-full h-[30%] bottom-0 bg-gradient-to-b from-transparent via-transparent to-primary -z-1">
+                    </div>
+                </div>
+
+                <div class="min-w-[calc(100%)] md:min-w-[calc(100%/3)] relative banner-slide -z-4">
+                    <img src=" static/images/3.png" alt="3.png" class="w-full h-auto -z-3">
+                    <div
+                        class="absolute w-full h-[100%] bottom-0 bg-primary/80 -z-2">
+                    </div>
+                    <div
+                        class="absolute w-full h-[30%] bottom-0 bg-gradient-to-b from-transparent via-transparent to-primary -z-1">
+                    </div>
+                </div>
+
+                <div class="min-w-[calc(100%)] md:min-w-[calc(100%/3)] relative banner-slide -z-4">
+                    <img src=" static/images/4.png" alt="4.png" class="w-full h-auto -z-3">
+                    <div
+                        class="absolute w-full h-[100%] bottom-0 bg-primary/80 -z-2">
+                    </div>
+                    <div
+                        class="absolute w-full h-[30%] bottom-0 bg-gradient-to-b from-transparent via-transparent to-primary -z-1">
+                    </div>
+                </div>
+
+                <div class="min-w-[calc(100%)] md:min-w-[calc(100%/3)] relative banner-slide -z-4">
+                    <img src=" static/images/5.png" alt="5.png" class="w-full h-auto -z-3">
+                    <div
+                        class="absolute w-full h-[100%] bottom-0 bg-primary/80 -z-2">
+                    </div>
+                    <div
+                        class="absolute w-full h-[30%] bottom-0 bg-gradient-to-b from-transparent via-transparent to-primary -z-1">
+                    </div>
+                </div>
+
+                <div class="min-w-[calc(100%)] md:min-w-[calc(100%/3)] relative banner-slide -z-4">
+                    <img src=" static/images/6.png" alt="6.png" class="w-full h-auto -z-3">
+                    <div
+                        class="absolute w-full h-[100%] bottom-0 bg-primary/80 -z-2">
+                    </div>
+                    <div
+                        class="absolute w-full h-[30%] bottom-0 bg-gradient-to-b from-transparent via-transparent to-primary -z-1">
+                    </div>
+                </div>
+
+                <div class="min-w-[calc(100%)] md:min-w-[calc(100%/3)] relative banner-slide -z-4">
+                    <img src=" static/images/7.png" alt="7.png" class="w-full h-auto -z-3">
+                    <div
+                        class="absolute w-full h-[100%] bottom-0 bg-primary/80 -z-2">
+                    </div>
+                    <div
+                        class="absolute w-full h-[30%] bottom-0 bg-gradient-to-b from-transparent via-transparent to-primary -z-1">
+                    </div>
+                </div>
+
+                <div class="min-w-[calc(100%)] md:min-w-[calc(100%/3)] relative banner-slide -z-4">
+                    <img src=" static/images/8.png" alt="8.png" class="w-full h-auto -z-3">
+                    <div
+                        class="absolute w-full h-[100%] bottom-0 bg-primary/80 -z-2">
+                    </div>
+                    <div
+                        class="absolute w-full h-[30%] bottom-0 bg-gradient-to-b from-transparent via-transparent to-primary -z-1">
+                    </div>
+                </div>
+
+                <div class="min-w-[calc(100%)] md:min-w-[calc(100%/3)] relative banner-slide -z-4">
+                    <img src=" static/images/9.png" alt="9.png" class="w-full h-auto -z-3">
+                    <div
+                        class="absolute w-full h-[100%] bottom-0 bg-primary/80 -z-2">
+                    </div>
+                    <div
+                        class="absolute w-full h-[30%] bottom-0 bg-gradient-to-b from-transparent via-transparent to-primary -z-1">
+                    </div>
+                </div>
+
+
+                <div class="bg-transparent absolute max-w-[1200px] left-0 right-0 mx-auto my-12 lg:my-0 lg:top-1/2 lg:-translate-y-1/2 z-10">
+                    <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16">
+                        <h1 class="mb-4 text-3xl md:text-6xl font-bold tracking-tight leading-none imp-text-fg py-2">AI generated QR codes anytime, anywhere made easy</h1>
+                        <p class="mt-2 mb-4 text-lg md:text-xl font-normal text-secondary md:px-48">With QReatit, you can use <span class="font-bold">AI</span> to quickly generate <span class="font-bold">High-Quality, thematic</span> QR Codes, right from your web-browser.<br>It's time to do away with boring black and white codes.</p>
+                        <p class="mt-2 mb-4 text-lg md:text-xl font-normal text-secondary md:px-48">Convey information from your QR Codes even before they are scanned.</p>
+                        <p class="text-white font-bold my-2 mb-8 text-lg md:text-xl">Join the AI revolution and up your marketing game with visually striking QR Codes</p>
+                        <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
+                            <a href="create" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium cta-button-bg">
+                                Explore Gallery
+                                <svg aria-hidden="true" class="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+                                </svg>
+                            </a>
+                            <a href="gallery" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium regular-button-bg">
+                                See Testimonials
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="max-w-[1200px] mx-auto">
+
+            <section class="bg-transparent my-32">
+                <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16">
+                    <h1 class="mb-4 text-3xl md:text-6xl font-bold tracking-tight leading-none imp-text-fg py-2">Outstanding AI QR codes that increase conversions,<br> showcasing your Brand's Identity</h1>
+                    <p class="mt-2 mb-8 text-lg md:text-xl font-normal text-secondary">Your QR codes don't just hold links and data, but also showcase your unique identity. Tailor the QR Code with AI to match your brand's aesthetic, and <span class="font-bold">distribute it on flyers, pamphlets and billboards to increase website traffic and conversions.</span> Create a striking <span class="font-bold">first-impression and leave a memorable impact</span> on customers.</p>
+                    <div class="flex overflow-x-auto no-scrollbar scroll-smooth" id="product-parent">
+
+                        <div class="min-w-fit min-h-fit m-8 scroll-smooth" id="product-1">
+                            <img src=" static/business_products/bedroom_qr4.png" alt="bedroom_qr4" class="w-[384px] md:w-[512px] h-auto inline-block rounded-xl">
+                            <p class="text-center text-secondary2 text-base md:text-2xl font-bold italic w-[26ch] mx-auto mt-5">&#34;Showcase your new bedroom catalogue with a fresh looking QR Code, Give your business a unique identity by generating aesthetic and relevant QR codes&#34;</p>
+                        </div>
+
+                        <div class="min-w-fit min-h-fit m-8 scroll-smooth" id="product-2">
+                            <img src=" static/business_products/cleaning_qr4.png" alt="cleaning_qr4" class="w-[384px] md:w-[512px] h-auto inline-block rounded-xl">
+                            <p class="text-center text-secondary2 text-base md:text-2xl font-bold italic w-[26ch] mx-auto mt-5">&#34;Showcase your new cleaning equipments catalogue with a fresh looking QR Code, Give your business a unique identity by generating aesthetic and relevant QR codes&#34;</p>
+                        </div>
+
+                        <div class="min-w-fit min-h-fit m-8 scroll-smooth" id="product-3">
+                            <img src=" static/business_products/market_shop_qr4.png" alt="market_shop_qr4" class="w-[384px] md:w-[512px] h-auto inline-block rounded-xl">
+                            <p class="text-center text-secondary2 text-base md:text-2xl font-bold italic w-[26ch] mx-auto mt-5">&#34;Showcase your new bakery shop catalogue with a fresh looking QR Code, Give your business a unique identity by generating aesthetic and relevant QR codes&#34;</p>
+                        </div>
+
+                        <div class="min-w-fit min-h-fit m-8 scroll-smooth" id="product-4">
+                            <img src=" static/business_products/furniture_qr4.png" alt="furniture_qr4" class="w-[384px] md:w-[512px] h-auto inline-block rounded-xl">
+                            <p class="text-center text-secondary2 text-base md:text-2xl font-bold italic w-[26ch] mx-auto mt-5">&#34;Showcase your new dining table and furniture catalogue with a fresh looking QR Code, Give your business a unique identity by generating aesthetic and relevant QR codes&#34;</p>
+                        </div>
+
+                        <div class="min-w-fit min-h-fit m-8 scroll-smooth" id="product-5">
+                            <img src=" static/business_products/gym_qr2.png" alt="gym_qr2" class="w-[384px] md:w-[512px] h-auto inline-block rounded-xl">
+                            <p class="text-center text-secondary2 text-base md:text-2xl font-bold italic w-[26ch] mx-auto mt-5">&#34;Showcase your new gym catalogue with a fresh looking QR Code, Give your business a unique identity by generating aesthetic and relevant QR codes&#34;</p>
+                        </div>
+
+                        <div class="min-w-fit min-h-fit m-8 scroll-smooth" id="product-6">
+                            <img src=" static/business_products/food_qr2.png" alt="food_qr2" class="w-[384px] md:w-[512px] h-auto inline-block rounded-xl">
+                            <p class="text-center text-secondary2 text-base md:text-2xl font-bold italic w-[26ch] mx-auto mt-5">&#34;Showcase your mexican food catalogue with a fresh looking QR Code, Give your business a unique identity by generating aesthetic and relevant QR codes&#34;</p>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="bg-transparent my-32">
+                <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16">
+                    <h1 class="mb-4 text-3xl md:text-6xl font-bold tracking-tight leading-none imp-text-fg py-2">No more boring texts<br>
+                        Make your links and data stand out</h1>
+                    <p class="mt-2 mb-8 text-lg md:text-xl font-normal text-secondary">Use our service to generate fun and intriguing QR Codes with AI, which are opened and shared more. Your links don't have to look boring anymore. AI generated QR Codes come to the rescue.</p>
+                    <div class="flex overflow-x-auto no-scrollbar scroll-smooth" id="individual-parent">
+
+                        <div class="min-w-fit min-h-fit m-8 scroll-smooth" id="individual-1">
+                            <img src=" static/individual_products/image40.png" alt="image40" class="w-[384px] md:w-[512px] h-auto inline-block rounded-xl">
+                            <p class="text-center text-secondary2 text-base md:text-2xl font-bold italic w-[26ch] mx-auto mt-5">&#34;An aesthetic QR code of a gigantic deadly robot at the north pole looking away&#34;</p>
+                        </div>
+
+                        <div class="min-w-fit min-h-fit m-8 scroll-smooth" id="individual-2">
+                            <img src=" static/individual_products/image41.png" alt="image41" class="w-[384px] md:w-[512px] h-auto inline-block rounded-xl">
+                            <p class="text-center text-secondary2 text-base md:text-2xl font-bold italic w-[26ch] mx-auto mt-5">&#34;An aesthetic QR code of a handsome greek god with his weapon looking almighty&#34;</p>
+                        </div>
+
+                        <div class="min-w-fit min-h-fit m-8 scroll-smooth" id="individual-3">
+                            <img src=" static/individual_products/image6.png" alt="image6" class="w-[384px] md:w-[512px] h-auto inline-block rounded-xl">
+                            <p class="text-center text-secondary2 text-base md:text-2xl font-bold italic w-[26ch] mx-auto mt-5">&#34;An aesthetic QR code of a painting trending on artstation&#34;</p>
+                        </div>
+
+                        <div class="min-w-fit min-h-fit m-8 scroll-smooth" id="individual-4">
+                            <img src=" static/individual_products/image38.png" alt="image38" class="w-[384px] md:w-[512px] h-auto inline-block rounded-xl">
+                            <p class="text-center text-secondary2 text-base md:text-2xl font-bold italic w-[26ch] mx-auto mt-5">&#34;An aesthetic QR code of an art showcasing a japanese style house during winter&#34;</p>
+                        </div>
+
+                        <div class="min-w-fit min-h-fit m-8 scroll-smooth" id="individual-5">
+                            <img src=" static/individual_products/image10.png" alt="image10" class="w-[384px] md:w-[512px] h-auto inline-block rounded-xl">
+                            <p class="text-center text-secondary2 text-base md:text-2xl font-bold italic w-[26ch] mx-auto mt-5">&#34;An aesthetic QR code of a spaceship flying over a city on fire&#34;</p>
+                        </div>
+
+                        <div class="min-w-fit min-h-fit m-8 scroll-smooth" id="individual-6">
+                            <img src=" static/individual_products/image22.png" alt="image22" class="w-[384px] md:w-[512px] h-auto inline-block rounded-xl">
+                            <p class="text-center text-secondary2 text-base md:text-2xl font-bold italic w-[26ch] mx-auto mt-5">&#34;An aesthetic QR code of a red dragon spewing fire over an old village&#34;</p>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="bg-transparent mt-32 mb-16">
+                <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16">
+                    <h1 class="mb-4 text-3xl md:text-6xl font-bold tracking-tight leading-none imp-text-fg py-2">Stand out from the crowd</h1>
+                    <div class="flex flex-col-reverse md:flex-row max-w-fit mx-auto">
+                        <img src="static/qreatit-graphics.png" class="h-[600px] w-auto mx-4 mt-20 inline-block">
+                        <div class="flex flex-col items-center mx-4 h-1/2 my-auto">
+                            <p class="text-lg md:text-xl font-normal text-secondary inline-block w-[32ch]">Write to us at contact@qreatit.com. You don't have to be an AI expert or graphic designer anymore.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="bg-transparent mb-28">
+                <div class="px-4 mx-auto max-w-screen-xl text-left py-8 lg:pt-12 lg:pb-0">
+                    <h1 class="mb-4 text-3xl md:text-6xl font-bold tracking-tight leading-none imp-text-fg py-2">Features of our AI QR Codes</h1>
+                    <div class="mt-16 mx-6 flex flex-col gap-8">
+
+                        <div class="md:basis-1/3 md:grow-0 flex flex-col md:flex-row items-center justify-center gap-8 mx-auto">
+
+                            <div class="basis-1/2 md:h-52 grow-0 bg-transparent border-4 border-action rounded-lg p-8 md:hover:scale-[110%] transition-all duration-200">
+                                <h2 class="mb-6 text-xl md:text-2xl font-medium text-secondary">Personalized QR Codes</h2>
+                                <p class="text-secondary2 text-sm md:text-base">Join the AI revolution with us to generate personalised AI QR Codes to help you stand out from the competition</p>
+                            </div>
+
+                            <div class="basis-1/2 md:h-52 grow-0 bg-transparent border-4 border-action rounded-lg p-8 md:hover:scale-[110%] transition-all duration-200">
+                                <h2 class="mb-6 text-xl md:text-2xl font-medium text-secondary">Embedded Logo and branding</h2>
+                                <p class="text-secondary2 text-sm md:text-base">Showcase your brand and logo alongside your aesthetic with our technology. Our AI QR Codes work to fit your design and color palette, not the other way around.</p>
+                            </div>
+
+                        </div>
+
+                        <div class="md:basis-1/3 md:grow-0 flex flex-col md:flex-row items-center justify-center gap-8 mx-auto">
+
+                            <div class="basis-1/2 md:h-52 grow-0 bg-transparent border-4 border-action rounded-lg p-8 md:hover:scale-[110%] transition-all duration-200">
+                                <h2 class="mb-6 text-xl md:text-2xl font-medium text-secondary">Boosted Customer Interaction</h2>
+                                <p class="text-secondary2 text-sm md:text-base">Grab attention from customers in competitive environments and leverage AI to improve your click-through rate.</p>
+                            </div>
+
+                            <div class="basis-1/2 md:h-52 grow-0 bg-transparent border-4 border-action rounded-lg p-8 md:hover:scale-[110%] transition-all duration-200">
+                                <h2 class="mb-6 text-xl md:text-2xl font-medium text-secondary">Endless Scan Limit</h2>
+                                <p class="text-secondary2 text-sm md:text-base">Scan and Share our AI QR Codes without any fear of scan-limit or expiration.</p>
+                            </div>
+
+                        </div>
+
+                        <div class="md:basis-1/3 md:grow-0 flex flex-col md:flex-row items-center justify-center gap-8 mx-auto">
+
+                            <div class="basis-1/2 md:h-52 grow-0 bg-transparent border-4 border-action rounded-lg p-8 md:hover:scale-[110%] transition-all duration-200">
+                                <h2 class="mb-6 text-xl md:text-2xl font-medium text-secondary">Better Brand Integration</h2>
+                                <p class="text-secondary2 text-sm md:text-base">Use AI to create QR Codes that can seamlessly incorporate into your existing media.</p>
+                            </div>
+
+                            <div class="basis-1/2 md:h-52 grow-0 bg-transparent border-4 border-action rounded-lg p-8 md:hover:scale-[110%] transition-all duration-200">
+                                <h2 class="mb-6 text-xl md:text-2xl font-medium text-secondary">Freely Use For Commerical Purpose</h2>
+                                <p class="text-secondary2 text-sm md:text-base">Our AI QR Codes are not under any copyright and can be used freely for commercial purposes. Dont let anyone hold you back.</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="bg-transparent mb-28">
+                <div class="px-4 mx-auto max-w-screen-xl text-left py-8 lg:pt-12 lg:pb-0">
+                    <h1 class="mb-4 text-3xl md:text-6xl font-bold tracking-tight leading-none imp-text-fg py-2">Use cases of AI QR Codes</h1>
+                    <div class="mt-16 mx-6 flex flex-col gap-8">
+
+                        <div class="md:basis-1/3 md:grow-0 flex flex-col md:flex-row items-center justify-center gap-8 mx-auto">
+
+                            <div class="basis-1/3 md:h-52 grow-0 bg-transparent border-4 border-action rounded-lg p-8 md:hover:scale-[110%] transition-all duration-200">
+                                <h2 class="mb-6 text-xl md:text-2xl font-medium text-secondary">Brand Promotion</h2>
+                                <p class="text-secondary2 text-sm md:text-base">Promote your brand with unique and exciting AI QR Codes</p>
+                            </div>
+
+                            <div class="basis-1/3 md:h-52 grow-0 bg-transparent border-4 border-action rounded-lg p-8 md:hover:scale-[110%] transition-all duration-200">
+                                <h2 class="mb-6 text-xl md:text-2xl font-medium text-secondary">Print Ad Campaigns</h2>
+                                <p class="text-secondary2 text-sm md:text-base">Maximimze click-through rate and conversions with customized AI QR Codes</p>
+                            </div>
+
+                            <div class="basis-1/3 md:h-52 grow-0 bg-transparent border-4 border-action rounded-lg p-8 md:hover:scale-[110%] transition-all duration-200">
+                                <h2 class="mb-6 text-xl md:text-2xl font-medium text-secondary">Event Invitations</h2>
+                                <p class="text-secondary2 text-sm md:text-base">Grab attention and create intrigue with artistic QR invitations</p>
+                            </div>
+
+                        </div>
+
+                        <div class="md:basis-1/3 md:grow-0 flex flex-col md:flex-row items-center justify-center gap-8 mx-auto">
+
+                            <div class="basis-1/3 md:h-52 grow-0 bg-transparent border-4 border-action rounded-lg p-8 md:hover:scale-[110%] transition-all duration-200">
+                                <h2 class="mb-6 text-xl md:text-2xl font-medium text-secondary">Product Packaging</h2>
+                                <p class="text-secondary2 text-sm md:text-base">Get more out of of your packaging with thematic AI QR Codes</p>
+                            </div>
+
+                            <div class="basis-1/3 md:h-52 grow-0 bg-transparent border-4 border-action rounded-lg p-8 md:hover:scale-[110%] transition-all duration-200">
+                                <h2 class="mb-6 text-xl md:text-2xl font-medium text-secondary">Business Cards</h2>
+                                <p class="text-secondary2 text-sm md:text-base">Leave a memorable impact by using AI QR Codes on your business card</p>
+                            </div>
+
+                            <div class="basis-1/3 md:h-52 grow-0 bg-transparent border-4 border-action rounded-lg p-8 md:hover:scale-[110%] transition-all duration-200">
+                                <h2 class="mb-6 text-xl md:text-2xl font-medium text-secondary">Customer Reviews/Feedback</h2>
+                                <p class="text-secondary2 text-sm md:text-base">Use Aesthetic QR Codes to redirect to your feedback form</p>
+                            </div>
+
+                        </div>
+
+                        <div class="md:basis-1/3 md:grow-0 flex flex-col md:flex-row items-center justify-center gap-8 mx-auto">
+
+                            <div class="basis-1/3 md:h-52 grow-0 bg-transparent border-4 border-action rounded-lg p-8 md:hover:scale-[110%] transition-all duration-200">
+                                <h2 class="mb-6 text-xl md:text-2xl font-medium text-secondary">Restaurant Menus</h2>
+                                <p class="text-secondary2 text-sm md:text-base">Integrated AI QR Codes for your menu right into your dining experience</p>
+                            </div>
+
+                            <div class="basis-1/3 md:h-52 grow-0 bg-transparent border-4 border-action rounded-lg p-8 md:hover:scale-[110%] transition-all duration-200">
+                                <h2 class="mb-6 text-xl md:text-2xl font-medium text-secondary">Link Trees</h2>
+                                <p class="text-secondary2 text-sm md:text-base">Get more engagement and conversions using QR Codes for link trees</p>
+                            </div>
+
+                            <div class="basis-1/3 md:h-52 grow-0 bg-transparent border-4 border-action rounded-lg p-8 md:hover:scale-[110%] transition-all duration-200">
+                                <h2 class="mb-6 text-xl md:text-2xl font-medium text-secondary">Educational Resources</h2>
+                                <p class="text-secondary2 text-sm md:text-base">Higher quality learning with visually striking QR Codes</p>
+                            </div>
+
+                        </div>
+
+                        <div class="md:basis-1/3 md:grow-0 flex flex-col md:flex-row items-center justify-center gap-8 mx-auto">
+
+                            <div class="basis-1/3 md:h-52 grow-0 bg-transparent border-4 border-action rounded-lg p-8 md:hover:scale-[110%] transition-all duration-200">
+                                <h2 class="mb-6 text-xl md:text-2xl font-medium text-secondary">Treasure Hunts</h2>
+                                <p class="text-secondary2 text-sm md:text-base">Use our AI QR Codes in treasure hunts to share clues, integrating the QR Code into the setting</p>
+                            </div>
+
+                            <div class="basis-1/3 md:h-52 grow-0 bg-transparent border-4 border-action rounded-lg p-8 md:hover:scale-[110%] transition-all duration-200">
+                                <h2 class="mb-6 text-xl md:text-2xl font-medium text-secondary">Theme Parks</h2>
+                                <p class="text-secondary2 text-sm md:text-base">Add QR Codes in theme parks to share data memorably and up your visitor experience</p>
+                            </div>
+
+                            <div class="basis-1/3 md:h-52 grow-0 bg-transparent border-4 border-action rounded-lg p-8 md:hover:scale-[110%] transition-all duration-200">
+                                <h2 class="mb-6 text-xl md:text-2xl font-medium text-secondary">Malls, Museums, Stalls</h2>
+                                <p class="text-secondary2 text-sm md:text-base">Thematic QR Codes can be used to sahre maps, location and information in a fun way</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="bg-transparent mb-32">
+                <div class="py-8 px-4 mx-auto max-w-screen-xl text-left lg:py-16">
+                    <h1 class="mb-4 text-3xl md:text-6xl font-bold tracking-tight leading-none imp-text-fg py-2">FAQs about AI Art</h1>
+                    <div class="flex flex-col gap-10 mt-12 mx-auto md:mx-6 divide-y-4 divide-dotted divide-action">
+
+                        <div class="bg-transparent w-full pt-8 px-8 pb-2">
+                            <h2 class="mb-6 text-xl md:text-2xl font-medium text-secondary">Are my AI QR Codes copyrighted?</h2>
+                            <p class="text-secondary2 text-sm md:text-base">No. All images generated using the AI are unique and have not existed prior. They are not copyrighted and you are free to use them.</p>
+                        </div>
+
+                        <div class="bg-transparent w-full pt-8 px-8 pb-2">
+                            <h2 class="mb-6 text-xl md:text-2xl font-medium text-secondary">Can I use my generated AI QR for commercial purposes?</h2>
+                            <p class="text-secondary2 text-sm md:text-base">You are completely free to use images that you have generated yourself. Images generated by others must be used with prior permission.</p>
+                        </div>
+
+                        <div class="bg-transparent w-full pt-8 px-8 pb-2">
+                            <h2 class="mb-6 text-xl md:text-2xl font-medium text-secondary">Is my AI QR completely unique?</h2>
+                            <p class="text-secondary2 text-sm md:text-base">All images are generated based on the description and settings entered. While entering similar prompts will yield to similar images, all images are as such unique from each other, and you will not see the exact same artwork on two QR Codes. Our QR Codes don&#39;t just store simple data, they are a piece of customized brand-artwork.</p>
+                        </div>
+
+                        <div class="bg-transparent w-full pt-8 px-8 pb-2">
+                            <h2 class="mb-6 text-xl md:text-2xl font-medium text-secondary">How can AI QR codes enhance my marketing?</h2>
+                            <p class="text-secondary2 text-sm md:text-base">QR Codes generated with AI have customized artwork embedded into them, which adds a level of intrigue and visual appeal to them. Customers are more likely to scan your QR Codes, which increases your return on investement from marketing and improves customer experience.</p>
+                        </div>
+
+                        <div class="bg-transparent w-full pt-8 px-8 pb-2">
+                            <h2 class="mb-6 text-xl md:text-2xl font-medium text-secondary">What kind of information/data can I encode in these QR codes?</h2>
+                            <p class="text-secondary2 text-sm md:text-base">Our AI QR Codes can store any kind of information that an ordinary QR Code can store, from links and URLs to plain-text data. You can use these for promoting your social media, website, or add text to them as you please.</p>
+                        </div>
+
+                        <div class="bg-transparent w-full pt-8 px-8 pb-2">
+                            <h2 class="mb-6 text-xl md:text-2xl font-medium text-secondary">How easy is it to integrate AI QR Codes into my existing media?</h2>
+                            <p class="text-secondary2 text-sm md:text-base">AI QR Codes are just normal images that you can easily integrate into your existing media and marketing material. It is as simple as downloading the generated image and using it in your media as a regular image. We have tried our best to make the process as easy and seamless as possible for our users.</p>
+                        </div>
+
+                        <div class="bg-transparent w-full pt-8 px-8 pb-2">
+                            <h2 class="mb-6 text-xl md:text-2xl font-medium text-secondary">How long does it take for an AI QR Code to generate?</h2>
+                            <p class="text-secondary2 text-sm md:text-base">We have dedicated serverse running 24/7 to generate images for you as fast as possible. Normally, it will take between 10 and 30 seconds for an image to generate, depending on the resolution. This time may increase a little bit during high-traffic periods.</p>
+                        </div>
+
+                        <div class="bg-transparent w-full pt-8 px-8 pb-2">
+                            <h2 class="mb-6 text-xl md:text-2xl font-medium text-secondary">Why is my AI QR code not working/scanning? What can I do to resolve this?</h2>
+                            <p class="text-secondary2 text-sm md:text-base">We recommend Google Lens for scanning AI QR Codes quickly. Even so, there is a chance that a QR Code does not work because of the artwork being too strongly embedded into it. In this case we recommend that you first check if the encoded data is free of typos and re-generating the image by changing the description a little bit. Sometimes, the QR Code may not scan when zoomed in or on certain monitors. We recommend printing the QR Codes and scanning them in the desired lighting conditions to verify whether they work.</p>
+                        </div>
+
+                        <div class="bg-transparent w-full pt-8 px-8 pb-2">
+                            <h2 class="mb-6 text-xl md:text-2xl font-medium text-secondary">Do the AI QR Codes expire after some time?</h2>
+                            <p class="text-secondary2 text-sm md:text-base">AI QR Codes generated using QReatit never expire and will continue to work as long as you need. The only case in which our QR Codes stop is if the website they point to stop working or go off.</p>
+                        </div>
+
+                        <div class="bg-transparent w-full pt-8 px-8 pb-2">
+                            <h2 class="mb-6 text-xl md:text-2xl font-medium text-secondary">Is there a scan limit to AI QR Codes?</h2>
+                            <p class="text-secondary2 text-sm md:text-base">No. There is no scan limit on our AI QR Codes and anyone can scan any of our QR Codes as many times as they wish.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="mx-auto container px-10 md:px-4 py-7">
+            <div class="md:flex md:justify-between">
+                <div class="mb-6 md:mb-0">
+                    <a href="" class="flex items-center self-center text-2xl font-bold text-secondary">QReatit</a>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-6 md:gap-8">
+                    <div>
+                        <h2 class="mb-6 text-sm font-semibold uppercase text-secondary">Write to us</h2>
+                        <ul class="text-secondary2 font-medium">
+                            <li class="mb-4">
+                                <p class="hover:text-secondary">feedback@qreatit.com</p>
+                                <p class="hover:text-secondary">contact@qreatit.com</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2 class="mb-6 text-sm font-semibold uppercase text-secondary">Support Us</h2>
+                        <ul class="text-secondary2 font-medium">
+                            <li class="mb-4">
+
+                                <a class="hover:text-secondary" href="https://www.buymeacoffee.com/qreatit" target="_blank" rel=”noopener noreferrer”>Donate</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2 class="mb-6 text-sm font-semibold uppercase text-secondary">Follow us</h2>
+                        <ul class="text-secondary2 font-medium">
+                            <li class="mb-4"><a href="https://www.facebook.com/people/QReatit/100095201928567/" target="_blank" rel=”noopener noreferrer” class="hover:text-secondary">Facebook</a></li>
+                            <li class="mb-4"><a href="https://www.instagram.com/qreatit/" target="_blank" rel=”noopener noreferrer” class="hover:text-secondary ">Instagram</a></li>
+                            <li class="mb-4"><a href="https://www.pinterest.com/qreatit/" target="_blank" rel=”noopener noreferrer” class="hover:text-secondary">Pinterest</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2 class="mb-6 text-sm font-semibold uppercase text-secondary">Legal</h2>
+                        <ul class="text-secondary2 font-medium">
+                            <li class="mb-4">
+                                <a href="privacy-policy" class="hover:text-secondary">Privacy Policy</a>
+                            </li>
+                            <li>
+                                <a href="terms-of-service" class="hover:text-secondary">Terms &amp; Conditions</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-6 mx-auto border-secondary md:my-8" />
+            <div class="flex items-center justify-between">
+                <span class="text-sm sm:text-center text-secondary2">© 2023 <a href="" class="hover:text-secondary">QReatit</a></span>
+                <div class="flex my-3 mx-4 space-x-6 justify-center ">
+                    <a href="https://www.facebook.com/people/QReatit/100095201928567/" target="_blank" rel=”noopener noreferrer” class="bg-transparent p-[2px] rounded-full border-2 border-secondary text-secondary">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" /></svg>
+                    </a>
+                    <a href="https://www.instagram.com/qreatit/" target="_blank" rel=”noopener noreferrer” class="bg-transparent p-[2px] rounded-full border-2 border-secondary text-secondary">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z" clip-rule="evenodd" /></svg>
+                    </a>
+                    <a href="https://www.pinterest.com/qreatit/" target="_blank" rel=”noopener noreferrer” class="bg-transparent p-[2px] rounded-full border-2 border-secondary text-secondary">
+                        <svg class="w-5 h-5" fill="#d1d5db" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" stroke="#d1d5db"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M16.75 0.406c-6.413 0-12.75 4.275-12.75 11.194 0 4.4 2.475 6.9 3.975 6.9 0.619 0 0.975-1.725 0.975-2.212 0-0.581-1.481-1.819-1.481-4.238 0-5.025 3.825-8.588 8.775-8.588 4.256 0 7.406 2.419 7.406 6.863 0 3.319-1.331 9.544-5.644 9.544-1.556 0-2.888-1.125-2.888-2.737 0-2.363 1.65-4.65 1.65-7.088 0-4.137-5.869-3.387-5.869 1.613 0 1.050 0.131 2.212 0.6 3.169-0.863 3.713-2.625 9.244-2.625 13.069 0 1.181 0.169 2.344 0.281 3.525 0.212 0.238 0.106 0.213 0.431 0.094 3.15-4.313 3.038-5.156 4.463-10.8 0.769 1.463 2.756 2.25 4.331 2.25 6.637 0 9.619-6.469 9.619-12.3 0-6.206-5.363-10.256-11.25-10.256z"></path> </g></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const animation_left = document.querySelectorAll('.animation-left');
+        const animation_right = document.querySelectorAll('.animation-right');
+
+        const left_observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('scroll-animation-enabled');
+                    entry.target.classList.remove('scroll-animation-left');
+                }
+                else {
+                    entry.target.classList.remove('scroll-animation-enabled');
+                    entry.target.classList.add('scroll-animation-left');
+                }
+            })
+        },
+        { threshold: 0.15
+        });
+
+        const right_observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('scroll-animation-enabled');
+                    entry.target.classList.remove('scroll-animation-right');
+                }
+                else {
+                    entry.target.classList.remove('scroll-animation-enabled');
+                    entry.target.classList.add('scroll-animation-right');
+                }
+            })
+        },
+        { threshold: 0.15
+        });
+
+
+        for (let i = 0; i < animation_left.length; i++) {
+            const element = animation_left[i];
+            left_observer.observe(element);
+            element.classList.add('scroll-animation-left');
+        }
+
+        for (let i = 0; i < animation_right.length; i++) {
+            const element = animation_right[i];
+            right_observer.observe(element);
+            element.classList.add('scroll-animation-right');
+        }
+    </script>
+
+    <script>
+        const profile_dropdown_button   = document.getElementById('profile-button')
+        const profile_dropdown          = document.getElementById('profile-dropdown');
+
+        function toggle_profile() {
+            profile_dropdown.classList.toggle('hidden');
+        }
+    </script>
+
+    <script>
+
+        const e = document.getElementById('slideshow');
+        const header = document.querySelector('header');
+
+        function make_header_opaque() {
+            header.classList.add('navbar-bg');
+            header.classList.remove('bg-primary');
+        }
+
+        function make_header_normal() {
+            header.classList.remove('navbar-bg');
+            header.classList.add('bg-primary');
+        }
+
+        window.addEventListener('scroll', function () {
+            const header = document.querySelector('header');
+            const scrollPos = window.scrollY;
+
+            if (scrollPos < e.offsetHeight) {
+                make_header_opaque();
+            } else {
+                make_header_normal();
+            }
+        });
+    </script>
+
+    <script>
+
+        function scroll_product_begin() {
+
+            const product_parent = document.getElementById('product-parent');
+
+            var lim = product_parent.scrollWidth;
+            var inc = lim / 6;
+            var cur = 0;
+
+
+
+            function scroll_item() {
+                cur = (cur + inc) % lim;
+                product_parent.scrollTo({ behaviour: 'smooth', left: cur });
+            }
+
+            scroll_item();
+            setInterval(scroll_item, 2500);
+        }
+
+        function scroll_individual_begin() {
+
+            const product_parent = document.getElementById('individual-parent');
+
+            var lim = product_parent.scrollWidth;
+            var inc = lim / 6;
+            var cur = 0;
+
+            function scroll_item() {
+                cur = (cur + inc) % lim;
+                product_parent.scrollTo({ behaviour: 'smooth', left: cur });
+            }
+
+            scroll_item();
+            setInterval(scroll_item, 2500);
+        }
+
+        window.addEventListener('load', scroll_product_begin);
+        window.addEventListener('load', scroll_individual_begin);
+    </script>
+
+    <script>
+        const navbar_dropdown_button    = document.getElementById('navbar-button');
+        const navbar_dropdown           = document.getElementById('navbar-dropdown');
+
+        function toggle_navbar() {
+
+            navbar_dropdown.classList.toggle('hidden');
+            navbar_dropdown.classList.toggle('block');
+
+            if (navbar_dropdown.classList.contains('hidden') && window.scrollY < e.offsetHeight) {
+                make_header_opaque();
+            } else {
+                make_header_normal();
+            }
+        }
+    </script>
+
+    <script>
+        window.addEventListener('load', function () {
+            const slides = document.getElementsByClassName("banner-slide");
+            const num_items = slides.length;
+
+            for (i = 0; i < num_items; i++) {
+                slides[i].style.order = i;
+            }
+
+            cur_start = 0;
+
+            function moveSlides() {
+
+                cur_start = (cur_start + num_items - 1) % num_items;
+
+                for (i = 0; i < num_items; i++) {
+                    slides[i].style.order = (i + cur_start) % num_items;
+                }
+
+                translate_cnt = 0;
+                function translateSlides() {
+
+                    for (i = 0; i < num_items; ++i) {
+                        slides[i].style.transform = `translateX(${-translate_cnt}%)`;
+                    }
+
+                    translate_cnt++;
+                    if (translate_cnt <= 100) {
+                        setTimeout(translateSlides, 2);
+                    }
+                }
+                translateSlides();
+            }
+
+            setInterval(moveSlides, 4000);
+    });
+    </script>
+
+
+    <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="qreatit" data-description="Support me on Buy me a coffee!" data-message="" data-color="#FF5F5F" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
+
+</body>
+
+</html>

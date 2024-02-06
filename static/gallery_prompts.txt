@@ -1,0 +1,70 @@
+bathroom_qr2:colorful image of a bathroom , luxurious bathroom, high color graded, no text, high details, blue colored bathroom , blue tiles, colorful tiles
+bedroom_qr4:a beautiful image of a bedroom, luxurious and rich bedrooms, high quality furnitures, high details, insane quality
+books_qr1:an aesthetic artwork of books piled on each other, 2 books are open, old literature books, insane details
+books_qr2:an aesthetic artwork of books piled on each other, different books, different colored books, high quality, intricate details
+books_qr3:a beautiful artwork of books piled on each other, artstation, different types of books, high quality, intricate details
+cleaning_qr1:a colorful  image of cleaning equipments in a room, no text, different equipments, cleaning, high quality
+cleaning_qr2:a beautiful and colorful image of cleaning equipments in a room, no text, different equipments, cleaning, high quality
+cleaning_qr3:an aesthetic image of cleaning equipments in a room, no text, different equipments, cleaning, high quality, high color graded
+cleaning_qr4:an aesthetic and colorful image of cleaning equipments in a room, high color graded, no text, different equipments, cleaning, high quality
+food_qr1:mouthwatering and beautiful fried rice, japanese style food, food in a bowl, japanese food, top quality, intricate details
+food_qr2:a colorful and aesthetic image of mexican food, mexican tacos, top quality food, tacos with vegetables, big plate, insane details
+food_qr3:delicious and beautiful pastry, colorful pastry and cake, many layeres of pastry, insanse detial, top quality food, high quality
+furniture_qr1:a colorful and aesthetic image of a bedroom, blue colored bedroom, luxurious bedrooms, rich, blue colored tiles, insanse details, high quality
+furniture_qr2:a beautiful and colorfu image of a bedroom, blue colored bedroom with other colors, luxurious bedrooms, rich, different colored tiles, insanse details, high quality
+furniture_qr3:colorful image of a bathroom , luxurious bathroom, high color graded, no text, high details, blue colored bathroom , blue tiles, colorful tiles
+furniture_qr4:a beautiful art of a dining table with chairs, top tier furniture, rich lifestyle, furnitures, luxurious dining table, many chairs, intricate details, high quality
+furniture_qr5:a colorful and beautiful image of a sofa set, luxurious sofas, furnitures, top tier furniture, sofas, colroful, insane details, top quality, made by a professional
+gym_qr2:a beautiful image of gym, top quality gym, different gym equipment, best gyms, insane details
+gym_qr3:an aesthetic image of gym, top quality gym, different gym equipment, best gyms, intricate details
+image0:mechanical girl,ultra realistic details, portrait, global illumination, shadows, octane render, 8k, ultra sharp,intricate, ornaments detailed, cold colors, metal, egypician detail, highly intricate details, realistic light
+image1:Japanese painting, mountains, 1girl, a japanese painting of a girl front of a house
+image2:A busy market, ((street vendors, fruits, vegetable, shops)), (Photorealistic:1.3), (Highly detailed:1.2), (Natural light:1.2), Vogue Living, and Elle Decor, Busy Market, market,art inspired by Architectural Digest
+image3:a japanese painting of a girl holding an umbrella, Japanese painting, mountains, 1girl, snow, winter 
+image4:a cubism painting of a town with a lot of houses in the snow with a sky background, Andreas Rocha, matte painting concept art, a detailed matte painting, winter, snowing, lamp light, light coming from the houses, light
+image5: two dragons fighting each other, two dragons, one is blue colour, other is red colour, fierce dragons, fire spreading, flame, artstation
+image6:A top view of a japanese house painting, high detail painting, japanese house, art station
+image7:a japanese painting of a girl with a japanese umbrella, standing front of a village, mountains, snowing, winter, 1 girl
+image8:a beautiful view of a colourful river flowing through a forest, forest background, trees, jungle
+image9:a cube shaped image of a microprocessor, grey colour, simple background, art station, microprocessor, cube shaped image
+image10:a foreign robotic evil spaceship entering a city on fire, lightning, city background, buildings, lightning on the sky, robot
+image11:a big robot, war machine , evil robot,  high quality ,beautiful detailed, intricate, insanely detailed, octane render trending on artstation, 8k artistic photography
+image12:a cubism painting of a town with a lot of houses in the snow with a sky background, Andreas Rocha, matte painting concept art, a big house with lamplights , lights on, winter  time, snowing
+image13:Sky view of highly aesthetic, ancient greek baths in beautiful nature, greek background with greenery and baths, beautiful detailed
+image14:a beautiful artwork trending, octane render trending on artstation, 8k artistic photography, artstation
+image15:A photo-realistic rendering of a busy market, ((street vendors, fruits, vegetable, shops)), (Highly detailed:1.2), (Natural light:1.2), 8k artstation trending, photo-realistic type, different vegetables seen
+image16:a beautiful artwork of a colourful matrix woman wearing a sweater, simple background, complex colours, the matrix
+image17:light, futobot, cyborg, ((masterpiece),(best quality),(ultra-detailed), (full body:1.2), 1male, solo, hood up, upper body, mask, 1boy, male focus,white gloves, cloak, long sleeves, spaceship, lightning, hires
+image18:a japanese painting of a girl with sweater standing front a village, many cubic shaped houses, village background , 1girl, snowing , winter 
+image19:A sky view of a colorful lakes and rivers flowing through the desert, african desert, hot day
+image20:mountains, a painting artwork of mountains with a village, snowing, winter, cubism houses, mountain background
+image21:mountains, a painting artwork of mountains with a village with lights, snowing, winter, cubism houses with lights coming, mountain background, lamp lights shining
+image22:a dragon attacking a city, dangerous and evil dragon, city background, many tall buildings, buildings on fire, red dragon
+image23:a female robot, metal, egypician detail, highly intricate details, realistic light, trending on cgsociety, glowing eyes, facing camera, neon details, machanical limbs,blood vessels connected to tubes, cold colours
+image24:a cubism photo of roblox and minecraft materials,a beautiful artwork trending, octane render trending on artstation, 8k artistic photography, artstation
+image25:art inspired by Architectural Digest, Vogue Living, A realistic rendering of a busy market,((street vendors, fruits, vegetable, shops)), (Photorealistic:1.3), (Highly detailed:1.2), (Natural light:1.2)
+image26:a japanese girl with red colour cloth standing in front of a village,1 girl holding an umbrella,  winter time, mountains background, many houses, a japanese art
+image27:a korean girl with red colour cloth standing in front of a village,1 girl,  winter time, mountains background, many houses, a japanese art, artstation
+image28:a japanese painting of a girl with black clothes standing front of a village, mountains background, many houses, winter time, snowing, high quality, 1 girl
+image29:a big robot, war machine , evil robot,  high quality ,beautiful detailed, intricate, insanely detailed, octane render trending on artstation, 8k artistic photography
+image30:mountains, a painting artwork of mountains with a village, snowing, winter, cubism japanese houses, mountain background, japanese
+image31:light, futobot, cyborg, ((masterpiece),(best quality),(ultra-detailed), (full body:1.2), 1male, solo, hood up, upper body, mask, 1boy, male focus,white gloves, cloak, long sleeves
+image32:a big robot, war machine , evil robot with orange screen eyes,  high quality ,beautiful detailed, intricate, insanely detailed, octane render trending on artstation, 8k artistic photography
+image33:cyborg face shown, futobot, cyborg, ((masterpiece),(best quality),(ultra-detailed), (full body:1.2), 1male, solo, hood up, upper body, mask, 1boy, male focus,white gloves, cloak, long sleeves, face shown
+image34:a big church looking like a house, cubism type of artstation, house, winter, snowing, hilly background, church, cubism house
+image35:a cubism painting of a town with a lot of houses in the snow with a sky background, Andreas Rocha, matte painting concept art, a detailed matte painting
+image36:katana , old samurai , asian architecture , dangerous , evil eyes , evil man , high quality ,beautiful detailed intricate insanely detailed octane render trending on artstation, 8k artistic photography
+image37:sunny day, a big wooden house with sun rising, sky background, 3 chimney at the top of the house,  a detailed matte painting, artstation
+image38:a cubism painting of a big house in the snow with a sky background, Andreas Rocha, lamp lights, lights coming out of the house, beautiful detailed, a detailed matte painting, light
+image39:a house in the snow with a sky background and light coming out of the house,snowman standing at the front of the house, a detailed matte painting, snowing, winter time
+image40:a big robot, war machine , evil robot with orange screen eyes,  high quality ,beautiful detailed, intricate, insanely detailed, octane render trending on artstation, 8k artistic photography
+image41:a 8k artistic photography of a greek god with a weapon, dangerous,   trending on artstation, octane render, detailed
+image42:ultra realistic details, portrait, 8k realistic, high quality, intricate details,neon details, blood vessels connected to tubes,mechanical vertebra attaching to back,mechanical, wires and cables connecting to head,1 mechanical girl
+image43:1 mechanical girl,ultra realistic details, portrait, octane render, 8k, ultra sharp,intricate, ornaments detailed, cold colors, metal, egypician detail, highly intricate details, realistic light, trending on cgsociety, red glowing eyes, looking towards the other side
+image44:a japanese girl with red colour cloth standing in front of a village,1 girl holding an umbrella,  winter time, mountains background, many houses, a japanese art, looking towards the viewer
+image45:a painting of a big mountain as background and a village with lot of houses, Andreas Rocha, matte painting concept art, cubism shaped house, snowy, winter time, village
+market_shop_qr1:A busy market, ((street vendors, fruits, vegetable, shops)), (Photorealistic:1.3), natural light, busy market, market,art inspired by Architectural Digest
+market_shop_qr2:A busy market, ((street vendors, fruits, vegetable, shops)), (Photorealistic:1.3), (Highly detailed:1.2), (Natural light:1.2), beautiful market, intricate details
+market_shop_qr3:a beautiful art of a bakery shop in the street, high quality, different bakery items, bakery, insane details
+market_shop_qr4:a beautiful and colorful art of a bakery shop in the street, boarding of bakery, high quality, different bakery items, bakery, high color graded
+market_shop_qr5:an aesthetic bakery shop in the street, high quality, different bakery items, bakery, intricate details, beautiful

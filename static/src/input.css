@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .gradient-bg {
+        @apply bg-gradient-to-r from-primary via-primary to-primary2
+    }
+
+    .cta-button-bg {
+        @apply text-secondary rounded-full bg-gradient-to-br from-action to-action border-2 border-action hover:from-action hover:to-action2 hover:border-action2
+    }
+
+    .regular-button-bg {
+        @apply text-secondary rounded-full bg-transparent border-2 border-secondary
+    }
+
+    .imp-button-bg {
+        @apply gradient-to-br bg-clip-text bg-gradient-to-br from-action to-action hover:from-action hover:to-action2
+    }
+
+    .auth-button-bg {
+        @apply bg-gradient-to-br from-action to-action2
+    }
+
+    .tag-button-bg {
+        @apply bg-gradient-to-br from-action to-action2 border-2 border-action2 rounded-full
+    }
+
+    .navbar-bg {
+        @apply bg-gradient-to-b from-primary/90 via-primary/75 to-transparent
+    }
+
+    .imp-text-fg {
+        @apply bg-gradient-to-r from-action to-action2 bg-clip-text text-transparent
+    }
+
+    .animation-left {
+        transition: all 0.4s ease-out;
+        transition-delay: 0.1s;
+    }
+
+    .animation-right {
+        transition: all 0.4s ease-out;
+        transition-delay: 0.1s;
+    }
+
+    .scroll-animation-left {
+        @apply md:opacity-0 md:transform md:-translate-x-[150px]
+        /* opacity: 0; */
+        /* transform: translateX(-150px); */
+    }
+
+    .scroll-animation-right {
+        @apply md:opacity-0 md:transform md:translate-x-[150px]
+        /* opacity: 0; */
+        /* transform: translateX(150px); */
+    }
+
+    .scroll-animation-after {
+        @apply md:opacity-100 md:transform md:translate-x-0
+        /* opacity: 1;
+        transform: translateX(0); */
+    }
+}
+
+@layer utilities {
+    @variants responsive {
+        /* Hide scrollbar for Chrome, Safari, and Opera */
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+
+
+        /* Hide scrollbar for IE, Edge, and Firefox */
+        .no-scrollbar {
+            -ms-overflow-style: none; /* IE and Edge */
+            scrollbar-width: none; /* Firefox */
+        }
+    }
+}
